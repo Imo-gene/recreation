@@ -10,7 +10,8 @@ body {
 }
 
 /* let's try to use kebab-case for classes! :) */
-.main_container {
+/* changed */
+.main-container {
     width: 80%;
 }
 
@@ -52,6 +53,7 @@ header>a {
 }
 
 /* as we are setting the same properties for img3 and img2, we can use the same class :) */
+/* also when I want to change the position later on? one on the right and the other on the left */
 
 .img3 {
     height: 40%;
@@ -62,16 +64,14 @@ header>a {
 
 .gallery_image_caption {
     margin-top: 1rem;
-    padding-top: 0rem;
     margin-bottom: 1rem;
-    padding-bottom: 0rem;
     /* in most of cases the default value of propierties is 0, so you dont have to set it :) */
+    /* changed */
     font-size: 0.5rem;
-    font-weight: 500;
-    color: rgba(0, 0, 0, 1);
     /* font-weight: 500;
     color: rgba(0, 0, 0, 1);
     these two are the default values for font-weight and color, so you dont have to set them :) */ 
+    /* changed */
     font-family: 'Courier New', monospace;
     line-height: 1rem;
 }
